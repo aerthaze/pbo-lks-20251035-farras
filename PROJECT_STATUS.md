@@ -15,7 +15,7 @@
 | No. | Langkah | Status | Bukti / Catatan |
 |---:|---|---|---|
 | 1 | Cek Lingkungan Pengembangan | [x] Selesai | `pertemuan-01/langkah-01.png` — PHP 8.5.10, Composer 2.10.3, MySQL 8.4.3 |
-| 2 | Struktur Folder & Composer PSR-4 | [~] Terverifikasi, menunggu screenshot | `composer dump-autoload -o` berhasil; `vendor/autoload.php` ada; PSR-4 `App\\` → `src/` |
+| 2 | Struktur Folder & Composer PSR-4 | [x] Selesai | `pertemuan-01/langkah-02.png` — `composer dump-autoload -o` berhasil; `vendor/autoload.php` ada; PSR-4 `App\\` → `src/` |
 | 3 | Konfigurasi .env & Skema Database | [~] Terverifikasi, menunggu screenshot | `.env`, `.env.example`, `database/schema.sql`; tabel `books` + 2 data awal |
 | 4 | Env Loader & Connection PDO | [~] Terverifikasi, menunggu screenshot | `test_connection.php` → koneksi berhasil, MySQL 8.4.3 |
 | 5 | Model, Interface & Repository Book | [~] Terverifikasi, menunggu screenshot | `test_repository.php` → total 2 buku (Laskar Pelangi, Bumi Manusia) |
@@ -65,7 +65,7 @@ Isi setelah pemeriksaan, jangan menebak:
 | Tanggal | Langkah | Perubahan | Pengujian | Status |
 |---|---|---|---|---|
 | 2026-11-06 | 1 | Menyalin dokumen referensi, membuat folder pertemuan, memeriksa lingkungan | PHP 8.5.10; Composer 2.10.3; MySQL 8.4.3 | Selesai — screenshot tersedia |
-| 2026-11-06 | 2 | Membuat struktur `rest-api-perpustakaan/` dan `composer.json` PSR-4 | `composer dump-autoload -o`; `vendor/autoload.php` ada | Terverifikasi |
+| 2026-11-06 | 2 | Membuat struktur `rest-api-perpustakaan/` dan `composer.json` PSR-4 | `composer dump-autoload -o`; `vendor/autoload.php` ada | Selesai — screenshot `langkah-02.png` tersedia |
 | 2026-11-06 | 3 | Membuat `.env`, `.env.example`, `database/schema.sql`; membuat database dan tabel `books` | MySQL: 2 baris awal tampil | Terverifikasi |
 | 2026-11-06 | 4 | Membuat `Env` dan `Connection` PDO Singleton | `php test_connection.php` → koneksi berhasil, MySQL 8.4.3 | Terverifikasi |
 | 2026-11-06 | 5 | Membuat `Book`, `BookRepositoryInterface`, `MySQLBookRepository` | `php test_repository.php` → total 2 buku | Terverifikasi |
