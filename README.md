@@ -223,6 +223,8 @@ Screenshot aplikasi final:
 - `screenshot-final/halaman-buku.png`
 - `screenshot-final/halaman-kategori.png`
 
+> Catatan: Langkah 11 diuji dengan cURL karena Postman/Insomnia tidak terpasang di lingkungan ini. Screenshot tetap menampilkan request dan response asli dari server.
+
 ## Finalisasi
 - 20 langkah LKS terdokumentasi dan memiliki bukti screenshot.
 - Backend CRUD Buku dan Kategori berjalan.
@@ -230,8 +232,8 @@ Screenshot aplikasi final:
 - Tiga screenshot final berada di `screenshot-final/`.
 - `.gitignore` mengecualikan `vendor/`, `.env`, `.DS_Store`, dan `*.log`.
 - README berisi identitas, fitur, cara menjalankan backend/frontend, dan tautan bukti pertemuan.
-- Commit final dan tag `v1.0-lks-final` telah dibuat dan di-push.
-- Link repository dikirim kepada dosen melalui LMS/email.
+- Commit final dan tag `v1.0-lks-final` telah dibuat secara lokal; push ke GitHub menunggu URL remote dan kredensial.
+- Link repository dikirim kepada dosen melalui LMS/email setelah push selesai.
 
 ## Cara OpenCode Melanjutkan
 Setelah membaca semua dokumen, periksa `PROJECT_STATUS.md` dan kondisi workspace. Tentukan langkah pertama yang belum selesai. Sampaikan rencana singkat, lalu tunggu persetujuan pengguna sebelum mengerjakan langkah tersebut.
