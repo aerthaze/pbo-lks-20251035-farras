@@ -5,9 +5,9 @@ Repository: https://github.com/aerthaze/pbo-lks-20251035-farras
 > **Instruksi utama untuk OpenCode.** Baca file ini sebelum melakukan perubahan apa pun. Detail tugas per langkah ada di `LKS_REFERENCE.md`, sedangkan progres aktual dicatat di `PROJECT_STATUS.md`.
 
 ## Identitas
-- Nama: [ISI NAMA]
-- NIM: [ISI NIM]
-- Kelas: [ISI KELAS]
+- Nama: Muhammad Farras Haidar Revanezka
+- NIM: H1101251035
+- Kelas: B
 - Program Studi: Sistem Informasi
 - Fakultas: FMIPA
 - Universitas: Universitas Tanjungpura

@@ -59,7 +59,7 @@ Isi setelah pemeriksaan, jangan menebak:
 - Cara verifikasi: `git remote -v`, `git ls-remote --heads origin`, `git ls-remote --tags origin`.
 - Hasil verifikasi: `main` dan tag `v1.0-lks-final` ada di remote; seluruh screenshot 1–20 dan tiga screenshot final tersedia.
 - Screenshot: 20 file `pertemuan-XX/langkah-YY.png` + 3 file `screenshot-final/*.png`.
-- Kendala: identitas README masih placeholder (`[ISI NAMA]`, `[ISI NIM]`, `[ISI KELAS]`).
+- Kendala: tidak ada.
 
 ## Log Perubahan
 | Tanggal | Langkah | Perubahan | Pengujian | Status |
