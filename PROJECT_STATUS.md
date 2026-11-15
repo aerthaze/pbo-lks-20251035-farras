@@ -9,7 +9,7 @@
 - [x] Integrasi end-to-end selesai
 - [x] 20 langkah LKS selesai (implementasi + screenshot 1–20)
 - [x] Screenshot final tersedia
-- [ ] Repository GitHub final di-push (menunggu URL remote + kredensial)
+- [x] Repository GitHub final di-push ke `https://github.com/aerthaze/pbo-lks-20251035-farras`
 
 ## Checklist 20 Langkah
 | No. | Langkah | Status | Bukti / Catatan |
@@ -33,7 +33,7 @@
 | 17 | Setup Frontend & Konfigurasi API | [x] Selesai | `pertemuan-06/langkah-17.png` — `http://localhost:3000` → HTTP 200, `config.js` menunjuk API |
 | 18 | Halaman Dashboard & Buku | [x] Selesai | `pertemuan-06/langkah-18.png` — dashboard 2 buku/2 kategori + tabel Buku dengan aksi Edit/Hapus |
 | 19 | Halaman Kategori & Integrasi Penuh | [x] Selesai | `pertemuan-07/langkah-19.png` — tabel Kategori dengan aksi Edit/Hapus, data dari backend |
-| 20 | Finalisasi & Push Repository | [x] Selesai lokal | `pertemuan-07/langkah-20.png` — commit + tag `v1.0-lks-final`; push GitHub menunggu remote/kredensial |
+| 20 | Finalisasi & Push Repository | [x] Selesai | `pertemuan-07/langkah-20.png` — `git push -u origin main` + tag `v1.0-lks-final` terkirim ke GitHub |
 
 ## Screenshot Final
 - [x] `screenshot-final/dashboard.png`
@@ -52,14 +52,14 @@ Isi setelah pemeriksaan, jangan menebak:
 - Browser: Google Chrome (`C:\Program Files\Google\Chrome\Application\chrome.exe`)
 
 ## Langkah Aktif
-- Nomor langkah: 20 (selesai lokal, push belum)
+- Nomor langkah: 20 (selesai)
 - Nama langkah: Finalisasi & Push Repository
-- Tujuan saat ini: Menunggu URL repository GitHub dan akses push dari pengguna.
-- File yang akan dibuat/diubah: tidak ada; hanya `git push origin main --tags`.
-- Cara verifikasi: `git remote -v`, `git push -u origin main`, `git push origin v1.0-lks-final`.
-- Hasil verifikasi: commit dan tag lokal dibuat; seluruh screenshot 1–20 dan tiga screenshot final tersedia.
+- Tujuan saat ini: Tidak ada; seluruh 20 langkah selesai dan repository sudah di GitHub.
+- File yang akan dibuat/diubah: tidak ada.
+- Cara verifikasi: `git remote -v`, `git ls-remote --heads origin`, `git ls-remote --tags origin`.
+- Hasil verifikasi: `main` dan tag `v1.0-lks-final` ada di remote; seluruh screenshot 1–20 dan tiga screenshot final tersedia.
 - Screenshot: 20 file `pertemuan-XX/langkah-YY.png` + 3 file `screenshot-final/*.png`.
-- Kendala: remote GitHub belum ada dan kredensial belum diberikan; identitas README masih placeholder.
+- Kendala: identitas README masih placeholder (`[ISI NAMA]`, `[ISI NIM]`, `[ISI KELAS]`).
 
 ## Log Perubahan
 | Tanggal | Langkah | Perubahan | Pengujian | Status |
@@ -83,7 +83,7 @@ Isi setelah pemeriksaan, jangan menebak:
 | 2026-11-06 | 17 | Membuat frontend Tailwind + `config.js`, `api.js`, `utils.js` | Halaman `localhost:3000` → HTTP 200 | Selesai — screenshot tersedia |
 | 2026-11-06 | 18 | Membuat dashboard, halaman Buku, modal CRUD, router hash | Dashboard + tabel Buku tampil dengan data backend | Selesai — screenshot tersedia |
 | 2026-11-06 | 19 | Membuat halaman Kategori + integrasi penuh | Tabel Kategori tampil dengan data backend | Selesai — screenshot tersedia |
-| 2026-11-15 | 20 | Mengambil seluruh screenshot bukti, merapikan README/status, commit + tag lokal | 20 screenshot langkah + 3 screenshot final; `git tag v1.0-lks-final` | Selesai lokal — push menunggu remote |
+| 2026-11-15 | 20 | Mengambil seluruh screenshot bukti, merapikan README/status, commit, tag, push ke GitHub | 20 screenshot langkah + 3 screenshot final; `git push -u origin main`; tag `v1.0-lks-final` | Selesai — repository publik tersedia |
 
 ## Aturan Pembaruan
 1. Perbarui status hanya berdasarkan hasil aktual.

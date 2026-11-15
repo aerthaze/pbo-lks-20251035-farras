@@ -1,5 +1,7 @@
 # PBO LKS — Portofolio Praktikum REST API
 
+Repository: https://github.com/aerthaze/pbo-lks-20251035-farras
+
 > **Instruksi utama untuk OpenCode.** Baca file ini sebelum melakukan perubahan apa pun. Detail tugas per langkah ada di `LKS_REFERENCE.md`, sedangkan progres aktual dicatat di `PROJECT_STATUS.md`.
 
 ## Identitas
@@ -232,8 +234,8 @@ Screenshot aplikasi final:
 - Tiga screenshot final berada di `screenshot-final/`.
 - `.gitignore` mengecualikan `vendor/`, `.env`, `.DS_Store`, dan `*.log`.
 - README berisi identitas, fitur, cara menjalankan backend/frontend, dan tautan bukti pertemuan.
-- Commit final dan tag `v1.0-lks-final` telah dibuat secara lokal; push ke GitHub menunggu URL remote dan kredensial.
-- Link repository dikirim kepada dosen melalui LMS/email setelah push selesai.
+- Commit final dan tag `v1.0-lks-final` sudah di-push ke https://github.com/aerthaze/pbo-lks-20251035-farras
+- Link repository dikirim kepada dosen melalui LMS/email.
 
 ## Cara OpenCode Melanjutkan
 Setelah membaca semua dokumen, periksa `PROJECT_STATUS.md` dan kondisi workspace. Tentukan langkah pertama yang belum selesai. Sampaikan rencana singkat, lalu tunggu persetujuan pengguna sebelum mengerjakan langkah tersebut.
